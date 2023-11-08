@@ -1,1 +1,1 @@
-# Halo-Battleship
+# Battleship Legends
