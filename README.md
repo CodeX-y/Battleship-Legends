@@ -11,7 +11,7 @@ Welcome to the 3D Battleship Game repository! This project showcases a captivati
 ## Features
 
 - **Captivating Gameplay:** Dive into an immersive 3D battleship experience with captivating gameplay.
-- **Multi-Platform Deployment:** The game is deployed on multiple platforms, including Windows, Mac, and Linux.
+- **Multi-Platform Deployment:** The game is deployable on both Windows and Linux.
 
 ## How to Use
 
@@ -20,10 +20,20 @@ Welcome to the 3D Battleship Game repository! This project showcases a captivati
 3. Download the content of the respective folder.
 4. The entire game engine is contained within the executable so no further downloading is required.
 
+## How to Play
+1. Ships are prearranged for each player. The player whose turn it is can see the arrangment of their ships.
+2. Player must enter a coordinate as an alpha then numerical. Ex. 'A1', 'D4', etc. Coordinates are form A-J and 1-10.
+3. Players can play until one side has sunken all of the opponent's ships.
+
 ## Folder Structure
 
 - `Windows`: Contains the game files for Windows platform.
 - `Linux`: Contains the game files for Linux platform.
+
+## Future Improvements
+- Add a home page
+- Add a server-client structure so players aren't playing on the same screen
+- Allow players to place their own ships on the game board
 
 ## Contribution
 
