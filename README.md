@@ -34,6 +34,12 @@ Welcome to the 3D Battleship Game repository! This project showcases a captivati
 - Add a server-client structure so players aren't playing on the same screen
 - Allow players to place their own ships on the game board
 
+## Contributors
+Yusra Ahmed
+Dashan Shet
+Bilal Suleman
+Karol Cieslikowski
+
 ## Contribution
 
 Feel free to contribute by submitting bug reports or suggesting enhancements. We appreciate your feedback!
