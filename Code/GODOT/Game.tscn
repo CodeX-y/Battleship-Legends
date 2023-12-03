@@ -1,0 +1,52 @@
+[gd_scene load_steps=8 format=3 uid="uid://bglweutjlkmmw"]
+
+[ext_resource type="MeshLibrary" uid="uid://dvabulk4byh65" path="res://game_mesh.tres" id="1_j7ohv"]
+[ext_resource type="Shader" uid="uid://c0catxecvjxpv" path="res://water.tres" id="2_6vi8g"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_uemcj"]
+sky_top_color = Color(0.384314, 0.454902, 0.54902, 1)
+sky_horizon_color = Color(0.646078, 0.655882, 0.670588, 1)
+ground_bottom_color = Color(0.2, 0.168627, 0.133333, 1)
+ground_horizon_color = Color(0.646078, 0.655882, 0.670588, 1)
+
+[sub_resource type="Sky" id="Sky_t6sg6"]
+sky_material = SubResource("ProceduralSkyMaterial_uemcj")
+
+[sub_resource type="Environment" id="Environment_37uej"]
+background_mode = 2
+sky = SubResource("Sky_t6sg6")
+tonemap_mode = 2
+ssao_enabled = true
+sdfgi_enabled = true
+glow_enabled = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ji0bt"]
+render_priority = 0
+shader = ExtResource("2_6vi8g")
+shader_parameter/ColorParameter = Color(0, 0.266667, 0.533333, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ojava"]
+material = SubResource("ShaderMaterial_ji0bt")
+size = Vector2(50, 50)
+subdivide_width = 20
+subdivide_depth = 20
+
+[node name="Game" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_37uej")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.854035, -0.481154, 0.197774, 0.370253, -0.295145, 0.880796, -0.365426, 0.825458, 0.430213, -7.86897, 15.7081, 19.5966)
+light_energy = 1.5
+shadow_enabled = true
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("1_j7ohv")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_ojava")
+
+[node name="Camera3D" type="Camera3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 0.827816, 0.561, 0, -0.561, 0.827816, 0, 4.78928, 15.1115)
+fov = 100.0

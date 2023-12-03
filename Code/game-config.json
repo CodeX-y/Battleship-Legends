@@ -1,0 +1,31 @@
+{
+	"ships" : {
+		"Aircraft Carrier" : {
+			"length" : 5,
+			"identifier" : "C"
+		},
+		"Battleship" : {
+			"length" : 4,
+			"identifier" : "B"
+		},
+		"Destroyer" : {
+			"length" : 3,
+			"identifier" : "D"
+		},
+		"Submarine" : {
+			"length" : 3,
+			"identifier" : "S"
+		},
+		"Patrol Boat" : {
+			"length" : 2,
+			"identifier" : "P"
+		}
+	},
+	"grid" : {
+		"width" : 10,
+		"height" : 10
+	},
+	"players" : {
+		"max_players" : 2
+	}
+}
