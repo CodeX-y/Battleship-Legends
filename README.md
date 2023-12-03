@@ -15,10 +15,9 @@ Welcome to the 3D Battleship Game repository! This project showcases a captivati
 
 ## How to Use
 
-1. Clone the repository to your local machine.
+1. Download or Clone the repository to your local machine.
 2. Navigate to the `Windows` folder if you are using a Windows machine or the `Linux` folder for a Linux machine.
-3. Download the content of the respective folder.
-4. The entire game engine is contained within the executable so no further downloading is required.
+3. Launch the executable file. The game should open an be ready to play.
 
 ## How to Play
 1. Ships are prearranged for each player. The player whose turn it is can see the arrangment of their ships.
@@ -34,6 +33,12 @@ Welcome to the 3D Battleship Game repository! This project showcases a captivati
 - Add a home page
 - Add a server-client structure so players aren't playing on the same screen
 - Allow players to place their own ships on the game board
+
+## Contributors
+Yusra Ahmed
+Dashan Shet
+Bilal Suleman
+Karol Cieslikowski
 
 ## Contribution
 
