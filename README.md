@@ -1,6 +1,6 @@
 # 3D Battleship Game
 
-Welcome to the 3D Battleship Game repository! This project showcases a captivating game developed using the GoDot4 game engine, featuring immersive shooting dynamics, intricate game mechanics, and engaging tournament gameplay.
+Welcome to the 3D Battleship Game repository! This project showcases a captivating game developed using the GoDot4 game engine, featuring immersive shooting dynamics, intricate game mechanics, and engaging gameplay.
 
 ## Overview
 
