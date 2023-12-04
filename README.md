@@ -21,7 +21,7 @@ Welcome to the 3D Battleship Game repository! This project showcases a captivati
 
 ## How to Play
 1. Ships are prearranged for each player. The player whose turn it is can see the arrangment of their ships.
-2. Player must enter a coordinate as an alpha then numerical. Ex. 'A1', 'D4', etc. Coordinates are form A-J and 1-10.
+2. Player must enter a coordinate as an alpha then numerical. Ex.'A1'. Coordinates range from A-J and 1-10.
 3. Players can play until one side has sunken all of the opponent's ships.
 
 ## Folder Structure
